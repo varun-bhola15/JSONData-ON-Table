@@ -12,6 +12,8 @@
 		33F006ED2003594D0011CF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F006EB2003594D0011CF07 /* Main.storyboard */; };
 		33F006EF2003594D0011CF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F006EE2003594D0011CF07 /* Assets.xcassets */; };
 		33F006F22003594D0011CF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F006F02003594D0011CF07 /* LaunchScreen.storyboard */; };
+		33F006FA20035EE70011CF07 /* ActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F006F920035EE70011CF07 /* ActorCell.swift */; };
+		33F006FC20036B270011CF07 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F006FB20036B270011CF07 /* Actor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		33F006EE2003594D0011CF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33F006F12003594D0011CF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33F006F32003594D0011CF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F006F920035EE70011CF07 /* ActorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorCell.swift; sourceTree = "<group>"; };
+		33F006FB20036B270011CF07 /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				33F006E72003594D0011CF07 /* AppDelegate.swift */,
 				33F006E92003594D0011CF07 /* ViewController.swift */,
+				33F006F920035EE70011CF07 /* ActorCell.swift */,
 				33F006EB2003594D0011CF07 /* Main.storyboard */,
+				33F006FB20036B270011CF07 /* Actor.swift */,
 				33F006EE2003594D0011CF07 /* Assets.xcassets */,
 				33F006F02003594D0011CF07 /* LaunchScreen.storyboard */,
 				33F006F32003594D0011CF07 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F006FA20035EE70011CF07 /* ActorCell.swift in Sources */,
 				33F006EA2003594D0011CF07 /* ViewController.swift in Sources */,
 				33F006E82003594D0011CF07 /* AppDelegate.swift in Sources */,
+				33F006FC20036B270011CF07 /* Actor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962VTQQ2MJ;
 				INFOPLIST_FILE = JSONDownloadingSwift4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = krishna.JSONDownloadingSwift4;
@@ -289,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 962VTQQ2MJ;
 				INFOPLIST_FILE = JSONDownloadingSwift4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = krishna.JSONDownloadingSwift4;
